@@ -1,0 +1,12 @@
+
+
+# Database
+*.sqlite3
+
+# Environment
+venv
+
+__pycache__
+
+.env
+manage.py
