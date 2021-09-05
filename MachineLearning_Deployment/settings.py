@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+
+import django
 from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -24,7 +26,10 @@ load_dotenv(dotenv_path=os.path.join(BASE_DIR, '.env'))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = os.environ.get('SECRET_KEY')
-SECRET_KEY = 'django-insecure-de(r1atxjr5-0qco=hdso49lhqs+po-(+#emt(@kxoej46xu$h'
+SECRET_KEY = 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag'
+# SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-de(r1atxjr5-0qco=hdso49lhqs+po-(+#emt(@kxoej46xu$h')
+# SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'cg#p$g+j9tax!#a3cup@1$8obt2_+&k3q+pmu)5%asj6yjpkag')
+
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
